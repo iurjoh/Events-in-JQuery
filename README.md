@@ -1,3 +1,39 @@
+# jQuery events
+
+[Português (Brasil)](README.pt-BR.md)
+
+## Idea and process
+
+Educational source reviewed on 2026-10-01. No dated plan, wireframes or personal development diary was found in the reviewed files. This README records the implemented exercise without inventing process history. No backend or database is part of the reviewed structure.
+
+## Architecture and design
+
+Cards-jquery.html loads jQuery 3.2.1 from a CDN, style.css and script.js. Three click handlers clear the highlight class from all streams, then highlight the selected stream. The paragraph/heading/mouse challenge solutions below are commented out, not active handlers. CSS uses wrapping flex cards and a navigation breakpoint at 700px. Course text, images and branding are demonstration material, not a real service.
+
+## Local preview
+
+```bash
+python3 -m http.server 8000
+```
+
+Open `http://localhost:8000/Cards-jquery.html`. No package install is required by the reviewed static files; external fonts/libraries need network access. This command was not run in the documentation update.
+
+## Testing and limitations
+
+No automated test suite was found in the reviewed root listing. Browser behavior was not tested and no public deployment was verified here. Test each stream click and confirm only its cards are highlighted. Check narrow layouts, CDN/image loading and keyboard access. Navigation controls are list items rather than buttons, and empty link destinations are placeholders. Review accessibility before reuse.
+
+## Snapshots
+
+No application screenshot was verified or added. Future captures should use dated files under `docs/assets/`, cover initial and changed states on desktop/mobile, and be labeled as a lesson fixture. Add links only after the images exist.
+
+## Credits and licensing
+
+Based on [Code Institute's Gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template) and course exercises. Preserve third-party code, images and library rights. No new license is applied. The original README is retained below as historical reference, not current setup advice.
+
+---
+
+## Original README
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Iuri Johansson,
